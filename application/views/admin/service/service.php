@@ -42,7 +42,7 @@ $this->load->view('admin/includes/navbar'); ?>
                                         <tr>
                                             <th scope="col">#</th>
                                             <th scope="col">Nome</th>
-                                            <th scope="col">Funcionário</th>
+                                            <th scope="col">Profissional</th>
                                             <th scope="col">Descrição</th>
                                             <th scope="col">Valor</th>
                                             <th scope="col">Duração</th>

@@ -30,7 +30,7 @@
 						<li class="nav-item <?php echo_if($uri == BOOKINGS_CONTROLLER . '/', 'active'); ?>">
 							<a href="<?php anchor_to(BOOKINGS_CONTROLLER) ?>">
 								<i class="far fa-credit-card"></i>
-								<p>Todos os Agendamentos</p>
+								<p>Agendamentos</p>
 							</a>
 						</li>
 						<li class="nav-section">
@@ -42,13 +42,13 @@
 						<li class="nav-item <?php echo_if($uri == SERVICE_CONTROLLER . '/services' || $uri == SERVICE_CONTROLLER . '/addservice' || $uri == SERVICE_CONTROLLER . '/editservice', 'active'); ?>">
 							<a href="<?php anchor_to(SERVICE_CONTROLLER) ?>">
 								<i class="fas fa-shopping-basket"></i>
-								<p>Todos os Serviços</p>
+								<p>Serviços</p>
 							</a>
 						</li>
 						<li class="nav-item <?php echo_if($uri == AGENTS_CONTROLLER . '/' || $uri == AGENTS_CONTROLLER . '/addagent' || $uri == AGENTS_CONTROLLER . '/editagent', 'active'); ?>">
 							<a href="<?php anchor_to(AGENTS_CONTROLLER) ?>">
 								<i class="fas fa-users"></i>
-								<p>Todos os profissionais</p>
+								<p>Profissionais</p>
 							</a>
 						</li>
 						<li class="nav-item <?php echo_if($uri == CONTACT_CONTROLLER . '/contactdetails', 'active'); ?>">
@@ -159,7 +159,7 @@
 								<p>Clientes</p>
 							</a>
 						</li>
-						<li class="nav-section">
+						<!--<li class="nav-section">
 							<span class="sidebar-mini-icon">
 								<i class="fa fa-ellipsis-h"></i>
 							</span>
@@ -171,7 +171,7 @@
 								<p>Todos os pagamentos</p>
 							</a>
 						</li>
-						<!--<li class="nav-item <?php echo_if($uri == PAYMENTS_CONTROLLER . '/stripe', 'active'); ?>">
+						<li class="nav-item <?php echo_if($uri == PAYMENTS_CONTROLLER . '/stripe', 'active'); ?>">
 							<a href="<?php anchor_to(PAYMENTS_CONTROLLER . '/stripe') ?>">
 								<i class="fab fa-stripe"></i>
 								<p>Configurações de faixa</p>

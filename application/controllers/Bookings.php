@@ -42,7 +42,7 @@ class Bookings extends CI_Controller {
         );
 		if($confirm && !$data['user']['disabled'] && $data['user']['role'] == 1) {
 			$this->BookingModel->deleteBooking($id);
-			$this->session->set_flashdata('alert', array('type' => 'alert alert-success', 'msg'  => 'Successfully delete booking.'));
+			$this->session->set_flashdata('alert', array('type' => 'alert alert-success', 'msg'  => 'Agendamento excluído com sucesso.'));
         }
 		
 		return redirect(BOOKINGS_CONTROLLER);
@@ -61,7 +61,7 @@ class Bookings extends CI_Controller {
         
 		if($confirm && !$data['user']['disabled'] && $data['user']['role'] == 1) {
 			$this->BookingModel->bookingConfirm($id, $to_update);
-			$this->session->set_flashdata('alert', array('type' => 'alert alert-success', 'msg'  => 'Successfully confirm booking.'));
+			$this->session->set_flashdata('alert', array('type' => 'alert alert-success', 'msg'  => 'Agendamento confirmado com sucesso.'));
         }
 
 		return redirect(BOOKINGS_CONTROLLER);
@@ -80,7 +80,7 @@ class Bookings extends CI_Controller {
         
 		if($confirm && !$data['user']['disabled'] && $data['user']['role'] == 1) {
 			$this->BookingModel->bookingCancel($id, $to_update);
-			$this->session->set_flashdata('alert', array('type' => 'alert alert-success', 'msg'  => 'Successfully cancel booking.'));
+			$this->session->set_flashdata('alert', array('type' => 'alert alert-success', 'msg'  => 'Agendamento cancelado com sucesso.'));
         }
 
 		return redirect(BOOKINGS_CONTROLLER);
@@ -99,7 +99,7 @@ class Bookings extends CI_Controller {
         
 		if($confirm && !$data['user']['disabled'] && $data['user']['role'] == 1) {
 			$this->BookingModel->bookingPay($id, $to_update);
-			$this->session->set_flashdata('alert', array('type' => 'alert alert-success', 'msg'  => 'Successfully paid booking.'));
+			$this->session->set_flashdata('alert', array('type' => 'alert alert-success', 'msg'  => 'Agendamento pago com sucesso.'));
         }
 		return redirect(BOOKINGS_CONTROLLER);
 	}

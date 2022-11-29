@@ -112,7 +112,7 @@ class Contact extends CI_Controller {
 				);
 				$this->ContactDetails->set($to_update);
 				$data['contactDetails'] = $this->ContactDetails->get();
-				$this->session->set_flashdata('alert', array('type' => 'alert alert-success', 'msg'  => 'Successfully updated contact details.'));
+				$this->session->set_flashdata('alert', array('type' => 'alert alert-success', 'msg'  => 'Detalhes do contato atualizado com sucesso.'));
 			}
 		}
 		$this->load->view('admin/contact/contact', $data);

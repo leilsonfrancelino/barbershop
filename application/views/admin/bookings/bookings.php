@@ -38,7 +38,7 @@ $this->load->view('admin/includes/navbar'); ?>
                                         <tr>
                                             <th scope="col">ID</th>
                                             <th scope="col">Serviço</th>
-                                            <th scope="col">Funcionário</th>
+                                            <th scope="col">Profissional</th>
                                             <th scope="col">Data</th>
                                             <th scope="col">Horário</th>
                                             <th scope="col">Adulto</th>
@@ -53,7 +53,7 @@ $this->load->view('admin/includes/navbar'); ?>
                                     <tbody>
                                         <?php if(!$bookings){?>
                                             <tr>
-                                                <td colspan="11" class="text-center"><h4 class="text-muted">No Booking Found</h4></td>
+                                                <td colspan="11" class="text-center"><h4 class="text-muted">Nenhum agendamento encontrado.</h4></td>
                                             </tr>
                                         <?php } else{?>
                                         <?php foreach ($bookings as $booking ){ ?>

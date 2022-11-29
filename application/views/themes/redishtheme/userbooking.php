@@ -26,7 +26,7 @@
                         <tbody>
                             <?php if(!$bookings){?>
                                 <tr>
-                                    <td colspan="9" class="text-center"><h4 class="text-muted">No Booking Found</h4></td>
+                                    <td colspan="9" class="text-center"><h4 class="text-muted">N enhum agendamento encontrado.</h4></td>
                                 </tr>
                             <?php } else{?>
                             <?php foreach ($bookings as $booking ){ ?>

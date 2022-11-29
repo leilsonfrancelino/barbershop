@@ -66,7 +66,7 @@ $this->load->view('admin/includes/navbar'); ?>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label for="site-logo">Selecionar imagem do funcionário <span class="text-danger">*</span></label>
+                                            <label for="site-logo">Selecionar imagem do profissional <span class="text-danger">*</span></label>
                                             <div class="text-danger mb-3"><b>Imagem menor que 500 X 500</b></div>
                                             <?php echo isset($logo_error) ? '<div class="alert alert-danger">' . $logo_error . '</div>' : '' ?>
                                             <div class="input-file input-file-image">

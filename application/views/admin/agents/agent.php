@@ -32,8 +32,8 @@ $this->load->view('admin/includes/navbar'); ?>
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-header">
-                            <div class="card-title float-left">Funcionários</div>
-                            <a href="<?php anchor_to(AGENTS_CONTROLLER . '/addagent') ?>" class="btn btn-primary float-right"><i class="fas fa-plus mr-2"></i> Adicionar Funcionário</a>
+                            <div class="card-title float-left">Profissionais</div>
+                            <a href="<?php anchor_to(AGENTS_CONTROLLER . '/addagent') ?>" class="btn btn-primary float-right"><i class="fas fa-plus mr-2"></i> Adicionar Profissional</a>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
@@ -59,7 +59,7 @@ $this->load->view('admin/includes/navbar'); ?>
                                             <td><?php echo esc($agent['id'], true) ?></td>
                                             <td><img src="<?php uploads('img/agents/'.esc($agent['agentImage'], true)) ?>" class="img-thumbnail mr-2 rounded-circle" width="45px"><?php echo esc($agent['agentName'], true) ?></td>
                                             <td><div class="agentDetails"><?php echo esc($agent['agentDetail'], true) ?></div></td>
-                                            <td><?php echo esc($agent['experience'], true) ?> Years</td>
+                                            <td><?php echo esc($agent['experience'], true) ?> Ano(s)</td>
                                             <td><?php echo esc($agent['totalBookings'], true) ?></td>
                                             <td>
                                                 <a href="<?php anchor_to(AGENTS_CONTROLLER . '/editagent/' . $agent['id']) ?>" data-toggle="tooltip" data-placement="top" title="Editar" class="btn btn-link btn-primary btn-lg">
