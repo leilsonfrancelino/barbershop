@@ -26,3 +26,4 @@ ERROR - 2022-11-29 02:52:00 --> Severity: Warning --> filesize(): stat failed fo
 ERROR - 2022-11-29 02:53:11 --> Severity: 8192 --> idn_to_ascii(): INTL_IDNA_VARIANT_2003 is deprecated C:\wamp\www\barbershop\system\libraries\Form_validation.php 1234
 ERROR - 2022-11-29 02:54:50 --> Severity: 8192 --> idn_to_ascii(): INTL_IDNA_VARIANT_2003 is deprecated C:\wamp\www\barbershop\system\libraries\Form_validation.php 1234
 ERROR - 2022-11-29 02:56:27 --> Severity: 8192 --> idn_to_ascii(): INTL_IDNA_VARIANT_2003 is deprecated C:\wamp\www\barbershop\system\libraries\Form_validation.php 1234
+ERROR - 2022-11-29 03:19:48 --> Severity: 8192 --> idn_to_ascii(): INTL_IDNA_VARIANT_2003 is deprecated C:\wamp\www\barbershop\system\libraries\Form_validation.php 1234
