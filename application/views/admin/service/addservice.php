@@ -87,10 +87,10 @@ $this->load->view('admin/includes/navbar'); ?>
                                             </div>
                                             <div class="col-12">
                                                 <div class="form-group">
-                                                    <label for="agent">Selecionar Funcionário <span class="text-danger">*</span></label>
+                                                    <label for="agent">Selecionar Profissional <span class="text-danger">*</span></label>
                                                     <?php echo form_error('agent[]', '<br><span class="text-danger">', '</span>'); ?>
                                                     <select id="multiple" name="agent[]" class="form-control" multiple="multiple">
-														<optgroup label="Selecionar Funcionário">
+														<optgroup label="Selecionar Profissional">
                                                             <?php foreach($agents as $agent){ ?>
                                                                 <option value="<?php echo esc($agent['id'], true)?>"><?php echo esc($agent['agentName'], true)?></option>
                                                             <?php } ?>

@@ -113,7 +113,7 @@ $this->load->view('admin/includes/navbar'); ?>
                                             <thead>
                                                 <tr>
                                                     <th scope="col">Serviço</th>
-                                                    <th scope="col">Funcionário</th>
+                                                    <th scope="col">Profissional</th>
                                                     <th scope="col">Data</th>
                                                     <th scope="col">Horário</th>
                                                     <th scope="col">Adulto</th>

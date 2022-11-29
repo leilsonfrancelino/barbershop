@@ -32,8 +32,8 @@ $this->load->view('admin/includes/navbar'); ?>
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-header">
-                            <div class="card-title float-left">Funcionários</div>
-                            <a href="<?php anchor_to(AGENTS_CONTROLLER . '/addagent') ?>" class="btn btn-primary float-right"><i class="fas fa-plus mr-2"></i> Adicionar Funcionário</a>
+                            <div class="card-title float-left">Profissionais</div>
+                            <a href="<?php anchor_to(AGENTS_CONTROLLER . '/addagent') ?>" class="btn btn-primary float-right"><i class="fas fa-plus mr-2"></i> Adicionar Profissional</a>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
